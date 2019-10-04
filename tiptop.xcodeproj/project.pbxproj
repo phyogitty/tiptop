@@ -14,6 +14,7 @@
 		DB12375723465A230035FE77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB12375523465A230035FE77 /* LaunchScreen.storyboard */; };
 		DB12376223465A240035FE77 /* tiptopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB12376123465A240035FE77 /* tiptopTests.swift */; };
 		DB12376D23465A240035FE77 /* tiptopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB12376C23465A240035FE77 /* tiptopUITests.swift */; };
+		DB44AEA72347D19C00120109 /* EnterAnotherPercentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44AEA62347D19C00120109 /* EnterAnotherPercentage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DB12376823465A240035FE77 /* tiptopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiptopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB12376C23465A240035FE77 /* tiptopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiptopUITests.swift; sourceTree = "<group>"; };
 		DB12376E23465A240035FE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB44AEA62347D19C00120109 /* EnterAnotherPercentage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterAnotherPercentage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DB12375323465A230035FE77 /* Assets.xcassets */,
 				DB12375523465A230035FE77 /* LaunchScreen.storyboard */,
 				DB12375823465A230035FE77 /* Info.plist */,
+				DB44AEA62347D19C00120109 /* EnterAnotherPercentage.swift */,
 			);
 			path = tiptop;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB44AEA72347D19C00120109 /* EnterAnotherPercentage.swift in Sources */,
 				DB12374F23465A200035FE77 /* ViewController.swift in Sources */,
 				DB12374D23465A200035FE77 /* AppDelegate.swift in Sources */,
 			);
