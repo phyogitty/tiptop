@@ -86,6 +86,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Other"/>
                                 <connections>
+                                    <action selector="enter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u4u-bP-QCg"/>
                                     <segue destination="C3s-36-6OG" kind="show" identifier="segue" id="Q9x-TC-PEm"/>
                                 </connections>
                             </button>
@@ -107,6 +108,7 @@
                     <navigationItem key="navigationItem" id="6YV-Po-zD3"/>
                     <connections>
                         <outlet property="billAmt" destination="jJq-BK-d9f" id="gk7-4z-XyF"/>
+                        <outlet property="message" destination="lLr-Wl-Pt8" id="1C9-z9-moP"/>
                         <outlet property="tipControl" destination="E5i-H3-sTd" id="TFb-IN-q8H"/>
                         <outlet property="tipLabel" destination="b4W-Mb-nvw" id="btV-o4-l1c"/>
                         <outlet property="totalLabel" destination="J19-cJ-uYo" id="IqA-pR-QPB"/>
@@ -141,6 +143,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Enter"/>
                                 <connections>
+                                    <action selector="enter:" destination="C3s-36-6OG" eventType="touchUpInside" id="oKG-7k-iWE"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="5Lx-Sk-r2o"/>
                                 </connections>
                             </button>
@@ -150,6 +153,7 @@
                     </view>
                     <connections>
                         <outlet property="anotherAmt" destination="rGk-0f-IKM" id="5pI-ex-IFZ"/>
+                        <outlet property="enter" destination="hCK-1z-c77" id="tyK-ee-5bd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qgA-UO-c1u" userLabel="First Responder" sceneMemberID="firstResponder"/>

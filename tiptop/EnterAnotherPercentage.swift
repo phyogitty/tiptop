@@ -9,8 +9,22 @@
 import UIKit
 
 class EnterAnotherPercentage: UIViewController {
-    @IBOutlet weak var anotherAmt: UITextField!
-
+//    @IBOutlet weak var anotherAmt: UITextField!
+//    
+//    @IBAction func enter(_ sender: Any) {
+//        if anotherAmt.text != "" {
+//            performSegue(withIdentifier: "segue", sender: self)
+//        }
+//    }
+//    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        var mainPage = segue.destination as! ViewController
+//        let newTipAmt =  Double(anotherAmt.text!) ??  0
+//        mainPage.message.text = String(format: "%f % is applied to the bill amount", newTipAmt)
+//        mainPage.newTipAmt = newTipAmt
+//        
+//        
+//    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

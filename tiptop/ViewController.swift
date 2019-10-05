@@ -10,21 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var message: UILabel!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var billAmt: UITextField!
     @IBOutlet weak var tipControl: UISegmentedControl!
-    var anotherTipAmt = 0.0
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var enterAnotherTipAmount = segue.destination as! EnterAnotherPercentage
-        anotherTipAmt = Double(enterAnotherTipAmount.anotherAmt.text)
-        <#code#>
-    }
+//    var anotherTipAmt = String()
+//    var newTipAmt = 0.0
+  
     override func viewDidLoad() {
         super.viewDidLoad()
+//        message.text = anotherTipAmt
         // Do any additional setup after loading the view.
     }
 
+    
+ 
     @IBAction func dismissKeyboard(_ sender: Any) {
         view.endEditing(true)
     }

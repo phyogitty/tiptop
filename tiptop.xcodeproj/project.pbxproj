@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB12374D23465A200035FE77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB12374C23465A200035FE77 /* AppDelegate.swift */; };
 		DB12374F23465A200035FE77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB12374E23465A200035FE77 /* ViewController.swift */; };
 		DB12375223465A200035FE77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB12375023465A200035FE77 /* Main.storyboard */; };
 		DB12375423465A230035FE77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB12375323465A230035FE77 /* Assets.xcassets */; };
@@ -36,7 +35,6 @@
 
 /* Begin PBXFileReference section */
 		DB12374923465A200035FE77 /* tiptop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiptop.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB12374C23465A200035FE77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB12374E23465A200035FE77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB12375123465A200035FE77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB12375323465A230035FE77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 		DB12374B23465A200035FE77 /* tiptop */ = {
 			isa = PBXGroup;
 			children = (
-				DB12374C23465A200035FE77 /* AppDelegate.swift */,
 				DB12374E23465A200035FE77 /* ViewController.swift */,
 				DB12375023465A200035FE77 /* Main.storyboard */,
 				DB12375323465A230035FE77 /* Assets.xcassets */,
@@ -261,7 +258,6 @@
 			files = (
 				DB44AEA72347D19C00120109 /* EnterAnotherPercentage.swift in Sources */,
 				DB12374F23465A200035FE77 /* ViewController.swift in Sources */,
-				DB12374D23465A200035FE77 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
